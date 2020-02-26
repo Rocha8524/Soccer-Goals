@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import React, { Component } from "react";
 import League from "./components/League";
 import Loading from "./components/Loading";
@@ -111,14 +112,14 @@ export default class App extends Component {
         <div className="app-header">
           <span className="app-name">
             Soccer Scores 365
-            </span>
+          </span>
           <TickClock />
         </div>
         <div className="date-nav-bar">{navBarBtns}</div>
         {error ? (
           <div className="error">
             Error! Check your internet connection.
-            </div>
+          </div>
         ) : null}
         <div className="container">
           {!isLoading ? leaguesComponent : <Loading />}

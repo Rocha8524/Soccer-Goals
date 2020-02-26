@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 /* eslint-disable react/no-did-update-set-state */
 /* eslint-disable react/prop-types */
 import React, { Component } from 'react';
