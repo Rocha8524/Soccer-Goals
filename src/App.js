@@ -110,7 +110,7 @@ export default class App extends Component {
         <>
           <div className="app-header">
             <span className="app-name">
-                        Soccer Hooligans 365 Scores
+            Soccer Scores 365
             </span>
             <TickClock />
           </div>
